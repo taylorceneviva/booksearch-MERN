@@ -22,10 +22,12 @@ description: {
     required: true
 },
 image: {
-    type: URL,
+    type: String,
+    trim: true
 },
 link: {
-    type: URL,
+    type: String,
+    trim: true
 }
 
 
